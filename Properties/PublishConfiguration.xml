@@ -1,0 +1,82 @@
+﻿<Publish>
+	<!--Id must be set in order to update existed mod. it is not required for publishing mod for the first time-->
+	<ModId Value="" />
+	<!--Name of the mod to display to players-->
+	<DisplayName Value="Fish, Fish and more Fish!" />
+	<!--Short description of the mod-->
+	<ShortDescription Value="This mod introduces fishing into the game." />
+	<!--Long description of the mod. Single line or multi line. Supports minimal markdown subset-->
+	<!--LongDescription Value="This is a long description" /-->
+	<LongDescription>
+## 🐟 Fish, Fish and More Fish!
+
+**Because your city needs more seafood.**
+This mod introduces a temporary fishing industry system into Cities: Skylines II, giving you the power to harvest, process, and export fish—even before the official mechanics arrive.
+
+---
+
+### 🎣 What This Mod Does
+
+- **Adds a Custom Fishing Industry Building**
+- Drag out **fishing zones** across rivers or coastlines to gather fish from the water.
+- Hook into your supply chain and build an economy powered by seafood.
+
+- **Fish-to-Food Processing**
+- Industrial buildings will automatically convert fish into food for general use.
+- Supports population consumption and city growth.
+
+- **Export and Economic Control**
+- Fish can be traded at any cargo terminal.
+- You can tax fish production like any other industry.
+
+- **Fish Resource Refresher (Code Mod)**
+- Fish regenerate every **5 minutes of real-world time** to prevent rapid depletion.
+- Helps keep your fishing industry running smoothly—especially since fish don’t behave like other resources (yet).
+
+---
+
+### ⚠️ Temporary and Experimental
+
+This mod is a **temporary solution** ahead of the official fishing mechanics. 
+
+When Colossal Order releases the official **fishing update**, these assets **may break or become grey boxes**. You’ll be able to safely bulldoze them.
+At that point, this mod will be **repurposed into proper, compatible fishing assets**.
+
+---
+
+### 🙏 Thanks and Credits
+
+Big thank you to:
+- **StarQ and Washy** – for development help and support.
+- **Triton** – for letting me use parts of your ELT code to handle fish regeneration.
+
+---
+
+Enjoy fishing before it’s officially a thing!
+
+	</LongDescription>
+	<!--Thumbnail-->
+	<Thumbnail Value="Properties/thumbnail.jpg" />
+	<!--Screenshot, can be set multiple times-->
+	<Screenshot Value="Properties/Image1Fish.png" />
+	<Screenshot Value="Properties/Image2Fish.png" />
+	<Screenshot Value="Properties/Image3Fish.png" />
+	<!--Tag, can be set multiple times-->
+	<Tag Value="" />
+	<!--Link to the forum post where the mod can be discussed-->
+	<ForumLink Value="" />
+	<!--Version of the mod-->
+	<ModVersion Value="1.0" />
+	<!--Recommended version of the base game to use the mod-->
+	<GameVersion Value="1.2.*" />
+	<!--Dependency for the mod, can be set multiple times-->
+	<Dependency Id="" />
+	<!--Required DLC, can be set multiple times. Supported values are "Landmark Buildings", "San Fransisco Set", "Beach Properties", "Urban Promenades", "Modern Architecture"-->
+	<RequiredDLC Value="" />
+	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
+	<ChangeLog Value="" />
+	<!--<ChangeLog>
+	</ChangeLog>-->
+	<!--External link, can be set multiple times. supported types are "discord", "github", "youtube", "twitch", "x", "paypal", "patreon", "buymeacoffee", "kofi", "crowdin", "gitlab", "gofundme"-->
+	<ExternalLink Type="" Url="" />
+</Publish>

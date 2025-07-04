@@ -1,0 +1,73 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.LotPrefab, Game",
+    "name": "Fishing_Lot",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.NavigationArea, Game",
+                "name": "NavigationArea",
+                "active": true,
+                "m_ConnectionType": 1,
+                "m_SecondaryType": 0,
+                "m_TrackTypes": 0,
+                "m_RoadTypes": 2
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.RenderedArea, Game",
+                "name": "RenderedArea",
+                "active": true,
+                "m_Material": $fstrref:"UnityObjectsMap:9192e5a9b914aef4884dac78607d4a76",
+                "m_Roundness": 0.6,
+                "m_LodBias": 0.5,
+                "m_RendererPriority": -100,
+                "m_DecalLayerMask": 0
+            }
+        ]
+    },
+    "m_Color": {
+        "$type": "5|UnityEngine.Color, UnityEngine.CoreModule",
+        0.377599984,
+        0.4294256,
+        0.59,
+        1
+    },
+    "m_EdgeColor": {
+        "$type": 5,
+        0.404434055,
+        0.477684736,
+        0.899371,
+        1
+    },
+    "m_SelectionColor": {
+        "$type": 5,
+        1,
+        1,
+        1,
+        1
+    },
+    "m_SelectionEdgeColor": {
+        "$type": 5,
+        1,
+        1,
+        1,
+        1
+    },
+    "m_MaxRadius": 450,
+    "m_RangeColor": {
+        "$type": 5,
+        0.5004518,
+        0.899371,
+        0.404434055,
+        1
+    },
+    "m_OnWater": true,
+    "m_AllowOverlap": false,
+    "m_AllowEditing": true
+}
